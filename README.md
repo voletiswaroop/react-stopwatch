@@ -2,7 +2,7 @@
 
 ## Demo
 
-![Demo](https://voletiswaroop.github.io/react-stopwatch/)
+Demo: https://voletiswaroop.github.io/react-stopwatch/
 
 # Copyright and License
 
