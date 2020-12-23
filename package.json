@@ -1,8 +1,8 @@
 {
-  "name": "react-stopwatch",
+  "name": "stopwatch",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://voletiswaroop.github.io/react-stopwatch/",
+  "homepage": "https://voletiswaroop.github.io/stopwatch",
   "author": {
     "name": "Swaroop Gupta Voleti"
   },
