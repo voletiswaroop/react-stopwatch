@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/react-stopwatch/static/css/main.56e213d5.chunk.css",
+    "main.js": "/react-stopwatch/static/js/main.801ce73a.chunk.js",
+    "main.js.map": "/react-stopwatch/static/js/main.801ce73a.chunk.js.map",
+    "runtime-main.js": "/react-stopwatch/static/js/runtime-main.46598192.js",
+    "runtime-main.js.map": "/react-stopwatch/static/js/runtime-main.46598192.js.map",
+    "static/js/2.9f5684f6.chunk.js": "/react-stopwatch/static/js/2.9f5684f6.chunk.js",
+    "static/js/2.9f5684f6.chunk.js.map": "/react-stopwatch/static/js/2.9f5684f6.chunk.js.map",
+    "static/js/3.84bf56ad.chunk.js": "/react-stopwatch/static/js/3.84bf56ad.chunk.js",
+    "static/js/3.84bf56ad.chunk.js.map": "/react-stopwatch/static/js/3.84bf56ad.chunk.js.map",
+    "index.html": "/react-stopwatch/index.html",
+    "static/css/main.56e213d5.chunk.css.map": "/react-stopwatch/static/css/main.56e213d5.chunk.css.map",
+    "static/js/2.9f5684f6.chunk.js.LICENSE.txt": "/react-stopwatch/static/js/2.9f5684f6.chunk.js.LICENSE.txt",
+    "static/media/stopWatch.css": "/react-stopwatch/static/media/GothamHTF-Book.b115ab97.woff"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.46598192.js",
+    "static/js/2.9f5684f6.chunk.js",
+    "static/css/main.56e213d5.chunk.css",
+    "static/js/main.801ce73a.chunk.js"
+  ]
+}

@@ -1,0 +1,111 @@
+@font-face {
+  font-family: GothamHTF;
+  src: url("./GothamHTF-Book.woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: GothamHTF;
+  font-size: 15px;
+  line-height: normal;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: normal;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1 {
+  font-size: 35px;
+  line-height: normal;
+  color: #f58200;
+  padding: 50px 0 0;
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+}
+
+.stopwatch-wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin: 50px auto;
+  max-width: 950px;
+  align-items: flex-start;
+}
+
+.stopwatch-wrapper .stopwatch {
+  font-size: clamp(16px, 12vw, 50px);
+  margin-bottom: 25px;
+}
+
+.stopwatch-wrapper .stopwatch span {
+  font-size: clamp(16px, 12vw, 50px);
+}
+
+.stopwatch-wrapper button {
+  color: #fff;
+  cursor: pointer;
+  background: green;
+  border: 0;
+  border-radius: 15px;
+  min-width: 120px;
+  padding: 7px 10px;
+  outline: none;
+  margin-bottom: 15px;
+}
+
+.stopwatch-wrapper button#lap {
+  margin: 0 27px;
+}
+
+.stopwatch-wrapper button:hover {
+  background-color: #0aa200;
+}
+
+.stopwatch-wrapper .laps-wrapper {
+  display: flex;
+  max-width: 450px;
+  min-width: 450px;
+  flex-wrap: wrap;
+  border: 1px solid gray;
+}
+
+.stopwatch-wrapper .laps-wrapper div {
+  width: 100%;
+  display: flex;
+}
+
+.stopwatch-wrapper .laps-wrapper div span {
+  width: calc(100%/4);
+  border: 1px solid gray;
+  padding: 5px 10px;
+}
+
+@media all and (max-width:768px) {
+  .stopwatch-wrapper {
+    max-width: 90%;
+    flex-direction: column;
+  }
+
+  .stopwatch-container {
+    margin-bottom: 50px;
+  }
+
+  .stopwatch-wrapper .laps-wrapper {
+    min-width: auto;
+    max-width: 100%;
+  }
+
+  .stopwatch-wrapper button {
+    min-width: 92px;
+  }
+
+  .stopwatch-wrapper button#lap {
+    margin: 0 10px;
+  }
+}
