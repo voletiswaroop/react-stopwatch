@@ -4,7 +4,7 @@ It's a stopwatch application built on top of react and which comes with multiple
 
 ## Demo
 
-Demo: https://voletiswaroop.github.io/react-stopwatch/
+Demo: https://voletiswaroop.github.io/stopwatch/
 
 # Copyright and License
 
